@@ -1,0 +1,46 @@
+.readMessage{
+    text-align: center;
+    padding-top: 20px;
+}
+.readMessageForm  {
+    display: flex;
+    margin-bottom: 15px;
+}
+.title{
+    margin: 20px;
+}
+.readMessageForm input{
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    outline: none;
+    border:none;
+    border-bottom: 2px solid gray;
+    transform: 0.3s all ease;
+}
+.readMessageForm input:focus{
+    border-color: green;
+    transform: 0.3s all ease;
+}
+
+.readMessageForm button {
+    padding: 5px;
+    border:none;
+    border-bottom: 2px solid gray;
+    background: transparent;
+    transform: 0.3s all ease;
+    margin-left: 20px;
+}
+
+.readMessageForm button:hover{
+    border-color: green;
+    cursor: pointer;
+    transform: 0.3s all ease;
+}
+.message {
+    margin-top: 10px;
+}
+input.error {
+    transform: 0.3s all ease;
+    border-color: red;
+}

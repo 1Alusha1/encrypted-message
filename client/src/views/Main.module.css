@@ -1,0 +1,18 @@
+.main {
+  text-align: center;
+  height: 100%;
+  padding-top: 20px;
+}
+.mainTitle {
+  margin: 20px;
+}
+.mainText {
+  margin: 20px;
+}
+.mainLink{
+    margin: 20px;
+}
+.mainLink a {
+    display: block;
+    margin-bottom: 15px;
+}
